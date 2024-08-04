@@ -54,3 +54,20 @@ struct Chat: Identifiable {
 #Preview {
     ContentView()
 }
+
+struct BottomUpAppear: ViewModifier {
+    let delay: Double
+    
+    @State private var isVisible = false
+
+    func body(content: Content) -> some View {
+        content
+            .offset(y: isVisible ? 0 : 200)
+            .scaleEffect(isVisible ? 1 : 0.5, anchor: .bottom)
+            .opacity(isVisible ? 1 : 0)
+            .animation(Animation.easeOut(duration: 0.5).delay(delay), value: isVisible)
+            .onAppear {
+                isVisible = true
+            }
+    }
+}
