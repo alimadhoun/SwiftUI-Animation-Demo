@@ -11,6 +11,8 @@
 		4545F5482C5F97F5002097FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4545F5472C5F97F5002097FE /* ContentView.swift */; };
 		4545F54A2C5F97F7002097FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4545F5492C5F97F7002097FE /* Assets.xcassets */; };
 		4545F54D2C5F97F7002097FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4545F54C2C5F97F7002097FE /* Preview Assets.xcassets */; };
+		4545F5542C5F9896002097FE /* ChatRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4545F5532C5F9896002097FE /* ChatRowView.swift */; };
+		4545F5562C5F98A4002097FE /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4545F5552C5F98A4002097FE /* ChatListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4545F5472C5F97F5002097FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4545F5492C5F97F7002097FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4545F54C2C5F97F7002097FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4545F5532C5F9896002097FE /* ChatRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRowView.swift; sourceTree = "<group>"; };
+		4545F5552C5F98A4002097FE /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				4545F5472C5F97F5002097FE /* ContentView.swift */,
 				4545F5492C5F97F7002097FE /* Assets.xcassets */,
 				4545F54B2C5F97F7002097FE /* Preview Content */,
+				4545F5532C5F9896002097FE /* ChatRowView.swift */,
+				4545F5552C5F98A4002097FE /* ChatListView.swift */,
 			);
 			path = animationDemo;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4545F5562C5F98A4002097FE /* ChatListView.swift in Sources */,
+				4545F5542C5F9896002097FE /* ChatRowView.swift in Sources */,
 				4545F5482C5F97F5002097FE /* ContentView.swift in Sources */,
 				4545F5462C5F97F5002097FE /* animationDemoApp.swift in Sources */,
 			);
