@@ -19,7 +19,7 @@ struct ChatListView: View {
                     ChatRowView(chat: chat)
                         .padding(.horizontal)
                         .bottomUpAppear(delay: Double(index) * 0.1)
-                }c
+                }
             }
         }
     }
