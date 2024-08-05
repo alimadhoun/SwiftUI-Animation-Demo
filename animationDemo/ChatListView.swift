@@ -13,11 +13,13 @@ struct ChatListView: View {
     var body: some View {
         ScrollView {
             LazyVStack {
-                ForEach(chats) { chat in
+                ForEach(chats.indices, id: \.self) { index in
+                    
+                    let chat = chats[index]
                     ChatRowView(chat: chat)
                         .padding(.horizontal)
-                        .bottomUpAppear(delay: Double(chats.firstIndex(where: { $0.id == chat.id }) ?? 1) * 0.1)
-                }
+                        .bottomUpAppear(delay: Double(index) * 0.1)
+                }c
             }
         }
     }
